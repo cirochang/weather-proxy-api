@@ -27,6 +27,6 @@ var routes = require('./api/routes.js');
 routes(app);
 
 // Start the server
-app.listen(port, function(){
+app.listen(port, '0.0.0.0', function(){
   console.log('Server listening on port ' + port);
 });
